@@ -1,0 +1,54 @@
+body{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 18px;
+}
+
+a{
+	padding: 10px;
+	background-color: white;
+	color: black;
+	font-size: 30px;
+	font-style: none;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+a:hover{
+	background-color: black;
+	color: limegreen;
+}
+
+#header{
+	margin: 3%;
+	font-size: 50px;
+}
+
+#left{
+	margin-top: 12%;
+	margin-left: 5%;
+	float: left;
+	width: 300px;
+}
+
+#forward{
+	margin: 0 auto;
+	width: 300px;
+}
+
+#right{
+	margin-right: 5%;
+	float: right;
+	width: 300px;
+}
+
+#ren{
+	z-index: -1;
+	text-align: center;
+}
+
+#face{
+	font-size: 30px;
+}
